@@ -1,0 +1,31 @@
+{
+  "name": "node-baidu-ping",
+  "version": "0.0.1",
+  "description": "ping to http://ping.baidu.com/ping/RPC2",
+  "homepage": "",
+  "bugs": "",
+  "dependencies": {
+    "request": "^2.34.0",
+    "debug": "^0.7.4"
+  },
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanweixiao/node-baidu-ping"
+  },
+  "keywords": [
+    "ping",
+    "baidu"
+  ],
+  "author": "C.C. <fanweixiao@gmail.com> (http://onlyvc.us)",
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
