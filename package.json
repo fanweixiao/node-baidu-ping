@@ -1,6 +1,6 @@
 {
   "name": "node-baidu-ping",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ping to http://ping.baidu.com/ping/RPC2",
   "homepage": "https://github.com/fanweixiao/node-baidu-ping",
   "bugs": "https://github.com/fanweixiao/node-baidu-ping/issues",
@@ -10,9 +10,6 @@
     "debug": "^0.7.4",
     "coffee-script": "*"
   },
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
