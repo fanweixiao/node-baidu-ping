@@ -1,6 +1,8 @@
 http = require 'http'
-Buffer = require('buffer').Buffer
-debug = require('debug')('node-baidu-ping')
+try
+  debug = require('debug') 'node-baidu-ping'
+catch
+  debug = ()->
 
 exports = module.exports = (title, urls)->
   body = build_body title, urls
@@ -15,7 +17,7 @@ exports = module.exports = (title, urls)->
     headers:
       'Content-Type': 'text/xml',
       'User-Agent': 'request'
-      'Content-Length': Buffer.byteLength body
+      'Content-Length': require('buffer').Buffer.byteLength body
 
   # Make request
   req = http.request options, (res)->

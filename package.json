@@ -2,13 +2,12 @@
   "name": "node-baidu-ping",
   "version": "0.0.1",
   "description": "ping to http://ping.baidu.com/ping/RPC2",
-  "homepage": "",
-  "bugs": "",
+  "homepage": "https://github.com/fanweixiao/node-baidu-ping",
+  "bugs": "https://github.com/fanweixiao/node-baidu-ping/issues",
   "dependencies": {
-    "request": "^2.34.0",
-    "debug": "^0.7.4"
   },
   "devDependencies": {
+    "debug": "^0.7.4",
     "coffee-script": "*"
   },
   "files": [
@@ -23,7 +22,8 @@
   },
   "keywords": [
     "ping",
-    "baidu"
+    "baidu",
+    "RPC"
   ],
   "author": "C.C. <fanweixiao@gmail.com> (http://onlyvc.us)",
   "readmeFilename": "README.md",
